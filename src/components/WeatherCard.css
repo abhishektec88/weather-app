@@ -1,0 +1,64 @@
+.weather-card {
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 477px;
+  margin: 20px auto;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.weather-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.weather-card p {
+  font-size: 1.2rem;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.weather-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.forecast-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.forecast-list li {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.forecast-list li:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.forecast-list span {
+  flex: 1;
+  text-align: center;
+}
